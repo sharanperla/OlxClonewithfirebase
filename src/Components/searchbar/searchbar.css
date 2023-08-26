@@ -1,0 +1,69 @@
+.searchlist{
+   background-color:white;
+   width:32em;
+   position: absolute;
+    display: inline; 
+}
+.item{
+ 
+    height: 50px;
+    padding:10px;
+    border:0.1px solid rgb(104, 97, 97);
+}
+.item:hover{
+background-color: aqua;
+}
+input[type=text]:focus {
+    border: 5px solid #04fffb;
+  }
+.productSearch {
+    width: 35em;
+    height: 48px;
+    border: 2px solid #002f34;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    
+  }
+  .productSearch .input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .productSearch .input input {
+    border-color: transparent;
+    outline-color: transparent;
+    width: 100%;
+    align-items: center;
+  }
+  .productSearch .searchAction {
+    min-width: 48px;
+    height: 48px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+  }
+
+
+  .productSearch .searchAction svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+  }
+  @media only screen and (max-width: 1400px) {
+   
+    .productSearch{
+     height: 20px;
+    width: 90%;
+    position: relative;
+    }
+    .productSearch .searchAction {
+     height: 20px;
+      }
+  }

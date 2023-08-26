@@ -1,0 +1,44 @@
+.bannerParentDiv {
+  padding-top: 4em;
+  /* display: flex;
+  justify-content: space-between; */
+  
+}
+.bannerParentDiv .bannnerChildDiv .menuBar {
+  display: flex;
+  padding: 10px 16px 10px 16px;
+  align-items: center;
+  
+}
+.bannerParentDiv .bannnerChildDiv .menuBar .categoryMenu span {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+.bannerParentDiv .bannnerChildDiv .menuBar .categoryMenu {
+  display: flex;
+}
+.bannerParentDiv .bannnerChildDiv .menuBar .otherQuickOptions span {
+  padding: 10px;
+  
+}
+.bannnerChildDiv .banner {
+  position: relative;
+  width: 100vw;
+}
+.bannnerChildDiv .banner img{
+  width: 100vw;
+}
+
+
+
+  @media only screen and (max-width: 1400px) {
+    .otherQuickOptions {
+      display: none;
+    }
+    .bannnerChildDiv .banner {
+        position: relative;
+      }
+  }
+  
+  
+  
